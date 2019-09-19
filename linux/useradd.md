@@ -1,5 +1,14 @@
 #
 ```
+在 Linux 系統上新增使用者的時候，通常要處理三件事情：
+
+編輯 /etc/passwd、/etc/shadow、/etc/group 與 /etc/gshadow，新增使用者帳號的資訊。
+建立新使用者的家目錄。
+設定家目錄的權限。
+
+https://blog.gtwang.org/linux/linux-useradd-command-tutorial-examples/
+```
+```
 useradd -h
 Usage: useradd [options] LOGIN
        useradd -D
