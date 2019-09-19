@@ -1,5 +1,13 @@
 #
 ```
+底下指令有何差異?
+ls
+ls -l
+ls -Al
+ls -al
+```
+
+```
 ls --help
 Usage: ls [OPTION]... [FILE]...
 List information about the FILEs (the current directory by default).
